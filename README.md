@@ -60,7 +60,7 @@ Please note that you **still need to manually configure** a couple files even wh
 	protected List<ReactPackage> getPackages() {
 	    @SuppressWarnings("UnnecessaryLocalVariable")
 	    List<ReactPackage> packages = new PackageList(this).getPackages();
-	    packages.add(new OrientationPackage());
+	    //packages.add(new OrientationPackage()); // <--- uncomment if is not working without this line, it should be auto loaded
 	    return packages;
 	}
 
