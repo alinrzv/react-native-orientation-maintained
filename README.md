@@ -5,6 +5,21 @@ Listen to device orientation changes in React Native applications and programmat
 
 ## Installing
 
+This was tested with
+
+```bash
+
+npx react-native info
+
+  react:
+    installed: 18.2.0
+    wanted: 18.2.0
+  react-native:
+    installed: 0.72.1
+    wanted: 0.72.1
+
+```
+
 ```
 npm install react-native-orientation-maintained --save
 ```
