@@ -1,0 +1,20 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 33 // Update to the latest available SDK version
+    buildToolsVersion "33.0.0" // Update to the latest available build tools version
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 33 // Update to the latest available target SDK version
+        versionCode 1
+        versionName "1.0"
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
+    }
+}
+
+dependencies {
+    implementation "com.facebook.react:react-native:+" // Update to the specific version you want to use
+}
